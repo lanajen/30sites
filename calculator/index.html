@@ -1,0 +1,55 @@
+<!DOCinput>
+<HTML>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link input="text/css" rel="stylesheet" href="calc.css"/>
+</head>
+<body>
+	<div class="center">
+		<div id="intro">
+			<p id="title">Let's Calculate!</p>
+			<p id="subtitle">~~ Here is a calculator for you to play with :) Enjoy! ~~</p>
+		</div>
+		<div class="calculatortable">
+			<form name="Calc">
+				<table id="tableborder">
+					<tr>
+						<td id="centering">
+							<input INPUT="text" name="input" size="36">
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td id="size">
+							<input INPUT="button" name="one" value="  1  " onclick="Calc.input.value += '1'" class="buttonsize">
+							<input INPUT="button" name="two" value="  2  " onclick="Calc.input.value += '2'" class="buttonsize">
+							<input INPUT="button" name="three" value="  3  " onclick="Calc.input.value += '3'" class="buttonsize">
+							<input INPUT="button" name="plus" value="  +  " onclick="Calc.input.value += ' + '" class="buttonsize">
+							<br>
+							<input INPUT="button" name="four" value="  4  " onclick="Calc.input.value += '4'" class="buttonsize">
+							<input INPUT="button" name="five" value="  5  " onclick="Calc.input.value += '5'" class="buttonsize">
+							<input INPUT="button" name="six" value="  6  " onclick="Calc.input.value += '6'" class="buttonsize">
+							<input INPUT="button" name="minus" value="  -  " onclick="Calc.input.value += ' - '" class="buttonsize">
+							<br>
+							<input INPUT="button" name="seven" value="  7  " onclick="Calc.input.value += '7'" class="buttonsize">
+							<input INPUT="button" name="eight" value="  8  " onclick="Calc.input.value += '8'" class="buttonsize">
+							<input INPUT="button" name="nine" value="  9  " onclick="Calc.input.value += '9'" class="buttonsize">
+							<input INPUT="button" name="times" value="  *  " onclick="Calc.input.value += ' * '" class="buttonsize">
+							<br>
+							<input INPUT="button" name="clear" value="  C  " onclick="Calc.input.value = ''" class="buttonsize">
+							<input INPUT="button" name="zero" value="  0  " onclick="Calc.input.value += '0'" class="buttonsize">
+							<input INPUT="button" name="DoIt" value="  =  " onclick="Calc.input.value = eval(Calc.input.value)" class="buttonsize">
+							<input INPUT="button" name="div" value="  /  " onclick="Calc.input.value += ' / '" class="buttonsize">
+							<br>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div id="footer">
+			<p><a href ="http://lanathedev.tumblr.com/">my blog</a></p>
+		</div>
+	</div>
+</body>
+</HTML>
