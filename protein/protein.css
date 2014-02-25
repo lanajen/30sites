@@ -1,0 +1,97 @@
+html	{
+	max-width: 950 px;
+}
+body {
+	background-image: url('greenapples.jpg');
+	background-repeat: repeat;
+}
+#main {
+	width: 700px;
+	text-align: left;
+	padding: 50px;
+	margin: 40px;
+	background-color: #a9f16c;
+	margin: auto;
+	border-radius: 10px;
+	font-family: Comic;
+	color: #2b1b17;
+}
+#title {
+	text-align: center;
+	color: white;
+	font-size: 42px;
+}
+#subtitle {
+	text-align: center;
+	margin: 10px;
+}
+.description {
+	text-align: center;
+}
+#bigger {
+	font-size: 20px;
+}
+.spacing {
+	height: 30px;
+}
+#dropdown	{
+	list-style-type: none;
+	border-radius: 5px 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+}
+.dropdown_list	{
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: white;
+	left: 0;
+	position: relative;
+}
+#navbar	{
+	position: auto;
+	margin-top: 100px;
+	text-align:center;
+	
+}
+#nav_list_style	{
+	list-style-type: none;
+	position: auto;
+	margin: -40px;
+	margin-bottom: 40px;
+	background-color: #a9f16c;
+	display: inline-block;
+}
+#nav_list	{
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	position: relative;
+	top: 0;
+	display: inline-block;
+	margin-right: 100px;
+}
+div#navbar ul#dropdown	{
+	display: none;
+}
+div#navbar ul li:hover > ul#dropdown	{
+	display: block;
+	width: 150px;	
+}
+.underline {
+	text-decoration: underline;
+}
+.darkgreen {
+	color: green;
+}
+#footer	{
+	position:relative;
+	height: 50px;
+	clear: both;
+	font-size: 14px;
+	text-align: right;
+	right: 80px;
+}
