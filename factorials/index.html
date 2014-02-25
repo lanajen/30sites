@@ -1,0 +1,82 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Factorials</title>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<meta charset="UTF-8"/>
+		<script src="http://code.jquery.com/jquery-1.4.4.min.js" type="text/javascript"></script>
+					<script type="text/javascript">		
+					$(document).ready(function() {
+
+					    $('#picone').fadeIn(1500).delay(3000).fadeOut(1500);
+
+					    $('#pictwo').delay(5000).fadeIn(1500).delay(3000).fadeOut(1500);
+
+					    $('#picthree').delay(8000).fadeIn(1500).delay(3000);
+
+					});
+					</script>
+</head>
+
+<body>
+	<div id="center">
+		<div id="title">
+			<p id="name">Factorials</p>
+			<p id="subname">Fun With Math</p>
+		</div>
+
+		<div id="try">
+			<p id="larger">Give it a try!</p>
+			<button onclick="factorial()">Enter a number here</button>
+			<!--yes I committed the crime of shoving Js in my html -->
+			<script>
+			function factorial () {
+				var userInput = prompt ("Please enter any non-negative integer");
+				var answer = 1;
+				for (var i=2; i <= userInput; i++) {
+					answer = answer * i; 
+				}
+				document.getElementById("output").innerHTML=answer;
+			}	
+			</script>
+			<p class="space"></p>
+			<div id="output">
+			</div>	
+		</div>
+
+		<div class="whatisit">
+			<p id="question">What is a factorial?</p>
+			<p>A factorial is the product any given non-negative integer (whole number) and every positive integer less than it</p>
+			<p>For example:</p>
+			<p>5! = 120, because 5! = 5 * 4 * 3 * 2 * 1</p>
+			<p>And:</p>
+			<p>4! = 4 * 3 * 2 * 1 = 24</p>
+			<p>3! = 3 * 2 * 1 = 6</p>
+			<p>2! = 2 * 1 = 2</p>
+			<p>1! = 1</p>
+			<p>But:</p>
+			<p>0! = 1 (this is special, it is a rule)</p>
+		</div>
+
+		<div id="resources">
+			<p id="naming">Resources to learn more! Yay!!</p>
+			<hr>
+			<p><a href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a> is a great reference for many subjects, like <a href="http://en.wikipedia.org/wiki/Factorial">factorials</a>, <a href="http://en.wikipedia.org/wiki/Combination">combinations</a>, <a href="http://en.wikipedia.org/wiki/Algebra">algebra</a>, and <a href="http://en.wikipedia.org/wiki/Lists_of_mathematicians">notable mathmeticians</a>.</p>
+			<hr>
+			<p><a href="www.khanacademy.org">Khan Academy</a> is an awesome resource to learn math!</p>
+			<hr>
+			<p><a href="http://www.mathsisfun.com/puzzles/index.html">Math is Fun</a> is a cute website where you can learn basic math, if that's more your cup of tea</p>
+			<hr>
+			<p><a href="www.coursera.org">Coursera</a> offers free, college level courses where you can learn a variety of subjects, including math and science</p>
+		</div>
+		<div id="pics">
+			<img src="math1.jpg" width="500" height="300" id="picone" />
+			<img src="math2.jpg" width="500" height="300" id="pictwo" />
+			<img src="math3.jpg" width="500" height="300" id="picthree" />
+		</div>
+		<div id="footer">
+			<p id="blog"><a href="http://lanathedev.tumblr.com/">my blog</a></p>
+		</div>	
+	</div>
+</body>
+</html>

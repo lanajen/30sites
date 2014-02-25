@@ -1,0 +1,116 @@
+html	{
+	max-width: 950 px;
+	}
+body {
+	width: 800px;
+	margin: auto;
+	background-image:url('extra_clean_paper.png'); 
+		background-repeat:repeat;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#center {
+	width: 800px;
+	height: 1400px;
+	background-color: #fafafa;
+	color: #242424;;
+}
+#title {
+	position: absolute;
+	float: top;
+	top: 0px;
+	text-align: center;
+	width: 800px;
+	height: 50px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#name {
+	font-size: 40px;
+	text-align: center;
+}
+#subname {
+	font-size: 20px;
+	text-align: center;
+}
+#try {
+	position: relative;
+	top: 200px;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+#larger {
+	font-size: 20px;
+}
+#output {
+	text-align: center;
+	color: blue;
+}
+.whatisit {
+	position: relative;
+	float: right;
+	top: -120px;
+	right: 10px;
+	width: 400px;
+	height: 300px;
+}
+.space {
+	height: 10px:;
+}
+#pics {
+	position: relative;
+	top: 700px;
+	width: 350px;
+}
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: #2E0854;
+	text-decoration: underline;
+}
+a:visited {
+	color: #2E0854;
+	text-decoration: none;
+}
+#naming {
+	font-size: 18px;
+
+}
+#question {
+	font-style: italic;
+	font-size: 18px;
+}
+#resources {
+	position: relative;
+	top: 330px;
+	width: 400px;
+	text-align: center;
+	right: -180px;
+	border-color: yellow;
+	border-radius: 10px;
+}
+#pics {
+	position: absolute;
+	top: 1000px;
+	width: 500px;
+	height: 300px;
+	left: 230px;
+	/*MY CONTAINER FOR MY IMAGES*/
+}
+#picone, #pictwo, #picthree {
+	position: absolute;
+	display: none;
+	/*TO HIDE IMAGES WHEN PAGE LOADS AND TO STACK ALL IMAGES*/
+}
+#footer {
+	height: 31px;
+	clear: both;
+	position: relative;
+	bottom: -700px;
+}
+#blog {
+	font-size: 12px;
+	text-align: right;
+	text-decoration: underline;
+}
