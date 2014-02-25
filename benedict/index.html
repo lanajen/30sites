@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<!--<script type="text/javascript" src="js/bc.js"></script> -->
+	<title>Benedict Cumberbatch</title>
+</head>
+<body>
+	<div class="center">
+		<div class="header">
+			<p id="title">Are you a Sherlock fan?</p>
+		</div>
+		
+		<image class="centered" src="sherlock.jpg"/>
+		
+		<!--<image src="benedict.jpg"/>-->
+		<p id="imperative">You should be!</p>
+		<p>Sherlock is played by <a href="http://benedict-cumberbatch.net/">Benedict Cumberbatch</a></p>
+		<p>He is charming, talented, and British :)</p>
+		
+		<button onclick="Rate()">Click here to let me know how much you like him!</button>
+
+		<script>
+			function Rate() {
+				var rating=prompt("On a scale of 1-10, how much do you like him?");
+				var answer;
+
+				switch(rating) {
+					case '1':
+						answer="You're kidding right?";
+						break;
+					case '2':
+						answer="You must have never seen Sherlock, poor thing :(";
+						break;
+					case '3':
+						answer="Just have to fire up the tube some more with Sherlock!";
+						break;
+					case '4':
+						answer="Not too bad, here is a site to help you, enjoy :) http://www.benedictcumberbatch.co.uk/";
+						break;
+					case '5':
+						answer="That's cool, getting there...";
+						break;
+					case '6':
+						answer="Cool cool, check out this link: \
+						http://www.buzzfeed.com/ailbhemalone/the-10-best-moments-of-benedict-cumberbatchs-top-gear-appear";
+						break;
+					case '7':
+						answer="Nice, nice. Sherlock plays the violin, does that add to his awesomeness?";
+						break;
+					case '8':
+						answer="Nice! Sherlock makes talkkng to oneself seem normal and cool :)";
+						break;
+					case '9':
+						answer="Great! It's easy to fall for him :)";
+						break;
+					case '10':
+						answer="Awesome! You have good taste! We should be friends :)";
+						break;
+					default:
+						answer="Whoopsies! Try again, hit the button and enter a ranking 1-10, inclusive";
+				}
+				document.getElementById("reply").innerHTML=answer;
+			}
+		</script>
+
+		<p id="reply"></p>
+	</div>
+	<div id="footer">
+		<p><a href="http://lanathedev.tumblr.com/">my blog</a></p>
+	</div>
+</body>
+</html>
