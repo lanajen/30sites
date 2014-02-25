@@ -1,0 +1,110 @@
+
+html	{
+	max-width: 1300 px;
+}	
+body	{
+	background-color: #912470; 
+	margin: 40px 50px;
+	font-family: Arial, sans-serif;	
+}
+.centered	{
+	width: 1000px;
+	text-align: right;
+	padding: 30px;
+	margin-top: 3px;
+	margin-bottom: 30px;
+	background-color: #e064bb;
+	margin: auto;
+	border-radius: 30px;
+}
+img.intropic	{
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+	margin-top: -150px;
+	border-radius: 100px;
+}	
+.roundpics {
+	border-radius: 100px;
+}
+.header	{
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 25px;
+	color: #7D0057;
+	margin-right: 100px;
+	font-size: 42px;
+}
+.intro {
+	text-align: center;
+}	
+.intro2 {
+	text-align: left;
+	margin-left: 50px;
+}	
+#facts {
+	width: 350px;
+	text-align: left;
+	margin-left: 80px;
+}		
+#words {
+	margin-top: -150px;
+	position: relative;
+	margin-left: 400px;
+}
+#line {
+	width: 400px;
+}
+#list {
+	text-align: right;
+	float: right;
+}
+#pic1 {
+	float: left;
+}
+#pic2 {
+	float: right;
+	margin-right: 60px;
+}
+#pic3 {
+	float: center;
+	position: relative;
+	margin-top: 450px;
+}
+#slightmove {
+	margin-right: 152px;
+}
+.picwords {
+	text-decoration: underline;
+	text-align: center;
+}
+#video {
+ 	position: relative;
+ 	margin-top: 100px;
+ 	text-align: center;
+}
+#bottom {
+	margin-top: 50px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+#footer	{
+	position:relative;
+	height: 50px;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+}
+.closer {
+	color: c10087;
+}		
+#footer p 	{
+	position: relative;
+	padding-top: 15px;
+	text-align: right;
+}	
+
+		
+	
+		
+		
