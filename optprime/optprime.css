@@ -1,0 +1,61 @@
+html	{
+	max-width: 950 px;
+	}
+body {
+	width: 800px;
+	margin: auto;
+	background-image:url('argyle.png'); 
+	background-repeat:repeat;
+}
+#title {
+	font-size: 64px;
+	text-align: center;
+}
+#boxed {
+	width: 800px;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+.pink {
+	color: #ff69b4;
+}
+.center {
+	text-align: center;
+	font-size: 24px;
+}
+#main {
+	position: absolute;
+	float: top;
+	margin: auto;
+	background-color: black;
+	width: 800px;
+}
+
+#midblock {
+	position: relative;
+	left: 0px;
+	top: 350px;
+	width: 500px;
+	height: 170px;
+	background-color: #ffffff;
+	margin: auto;
+	border-width: 30px;
+	border-radius: 50px;
+	border-color: #ff69b4;
+	color: #ff69b4;
+	padding: 10px;
+}
+
+#primes {
+	color: #ff69b4; 
+}
+
+#footer {
+	position:absolute;
+	bottom: 100px;
+	height: 50px;
+	clear: both;
+	text-align: left;
+	color: #ffffff;
+}
