@@ -1,0 +1,25 @@
+html	{
+	max-width: 1000px;
+}	
+body	{
+	background-image:url('images/xmasstripes.jpg');
+	background-repeat: repeat; 
+	margin: 50px;
+	font-family: Arial, sans-serif;	
+}
+#main	{
+	width: 800px;
+	height: 800px;
+	text-align: center;
+	padding: 10px;
+	background-color: red;
+	margin: auto;
+	border-radius: 50px;
+}
+#footer {
+	position:relative;
+	height: 50px;
+	clear: both;
+	font-size: 14px;
+	text-align: right;
+}
