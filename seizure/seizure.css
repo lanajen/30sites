@@ -1,0 +1,11 @@
+#footer {
+	clear: both;
+	float: bottom;
+	text-align: right;
+	margin-top: 500px;
+}
+#backgroundc {
+	background-color: yellow;
+	text-align: center;
+	margin-top: 50px;
+}
