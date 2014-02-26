@@ -1,0 +1,78 @@
+body {
+	background-image: url('../images/sunshine.jpg');
+	background-repeat: repeat;
+}
+#main {
+	background-color: #6698FF;
+	width: 700px;
+	height: 550px;
+	margin: auto;
+	text-align: center;
+	border-radius: 10px;
+}
+#navi	{
+	position: relative;
+	text-align:center;
+	margin-top: -200px;
+	margin-left: 10px;
+}
+#nav_list_style	{
+	list-style-type: none;
+	position: auto;
+	margin: -40px;
+	margin-bottom: 40px;
+	background-color: #6698FF;
+	display: inline-block;
+
+}
+#nav_list	{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	position: relative;
+	top: 0;
+	display: inline-block;
+	margin-right: 100px;
+	left: 30px;
+}
+#dropdown	{
+	list-style-type: none;
+	border-radius: 5px 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+}
+.dropdown_list	{
+	border: 1px solid gray;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: white;
+	left: 0;
+	margin-left: 0px;
+}
+div#navi ul#dropdown	{
+	display: none;
+}
+div#navi ul li:hover > ul#dropdown	{
+	display: block;
+	width: 220px;	
+}
+#head {
+	font-size: 60px;
+	color: #FFCC66;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+#footer	{
+	position:relative;
+	height: 50px;
+	clear: both;
+	text-align: right;
+	margin-top: 200px;
+	margin-right: 100px;
+}
+#whitetext {
+	color: white;
+}
