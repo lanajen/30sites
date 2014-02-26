@@ -1,0 +1,41 @@
+html	{
+	max-width: 950 px;
+}
+body	{
+	background-image:url('greyfloral.png'); 
+	background-repeat:repeat;
+	margin: 50px;
+	font-family: Arial, Helvetica;	
+}
+#main {
+	margin: auto;
+	width: 700px;
+	height: 300px;
+	background-color: #BDA0CB;
+	padding: 40px;
+}
+#clock {
+	float: center;
+	position: relative;
+	padding: 10px;
+	margin-left: 270px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #2E0854;
+	border-radius: 30px;
+	background-color: white;
+}
+#main p {
+	text-align: center;
+}
+#main h1 {
+	text-align: center;
+}
+.space {
+	height: 20px;
+}
+
+/* The declaration, "top: 100px;", prevents the clock stop ticking! Odd right?*/
