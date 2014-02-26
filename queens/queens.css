@@ -1,0 +1,47 @@
+body {
+	background-image: url('arabiannight2.jpg');
+	background-size: 50%;
+	background-repeat: repeat;
+}
+.backcolor {
+	background-color: #FFBBFF;
+}
+#main {
+	margin: auto;
+	padding: 30px;
+	width: 700px;
+	height: 1250px;
+	border-radius: 50px;
+}
+#picstyle {
+	border-radius: 200px;
+	margin-left: 160px;
+	margin-top: -40px;
+}
+#title {
+	font-size: 58px;
+	font-family: fantasy;
+}
+#intro {
+	font-size: 24px;
+	font-family: fantasy;
+}
+#story {
+	font-family: helvetica;
+	font-size: 14px;
+}
+.textcenter {
+	text-align: center;
+}
+#space {
+	height: 10px;
+}
+#footer {
+	clear: both;
+	float: bottom;
+	margin-left: 50px;
+	width: 80px; 
+}
+#footer p {
+	text-align: center;
+}
