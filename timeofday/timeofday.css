@@ -1,0 +1,17 @@
+#visiblewords {
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+	width: 270px;
+	text-align: center;
+}
+body {
+	background-size: 100%;
+	margin: 30px;
+}
+#footer {
+	background-color: gray;
+	color: black;
+	width: 55px;
+}
