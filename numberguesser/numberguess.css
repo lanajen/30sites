@@ -1,0 +1,22 @@
+body {
+	background-image: url('numberpic.jpeg');
+	background-repeat: repeat;
+}
+#center {
+	margin: auto;
+	padding: 50px;
+	text-align: center;
+	font-size: 24px;
+	width: 700px;
+	background-color: #f5f5dc;
+}
+#footer {
+	clear: both;
+	width: 80px;
+	text-align: center;
+	background-color: #7a7a6e;
+	padding: 1px;
+}
+#footer a {
+	color: #f5f5dc;
+}

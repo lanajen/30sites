@@ -1,0 +1,30 @@
+body {
+	background-image: url('storypics/darknight.jpg');
+	background-repeat: repeat;
+}
+.center {
+	width: 800px;
+	margin: auto;
+	border-radius: 10px;
+	background-color: #0e1717;
+	color: white;
+	text-align: center;
+}
+.center a {
+	color: red;
+}
+#title {
+	font-size: 48px;
+}
+.title0 {
+	font-size: 36px;
+}
+#footer {
+	clear: both;
+	width: 70px;
+	background-color: #878787;
+	text-align: center;
+}
+img {
+	width: 800px;
+}
