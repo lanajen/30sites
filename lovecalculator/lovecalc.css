@@ -1,0 +1,37 @@
+body {
+	background-image: url('lovehearts.jpeg');
+	background-repeat: repeat;
+}
+#center {
+	margin: auto;
+	width: 700px;
+	background-color: #ffd2e8;
+	border-radius: 20px;
+	text-align: center;
+	height: 600px;
+	padding: 30px;
+}
+#titled {
+	font-size: 40px;
+	color: #662a48;
+	font-weight: bold;
+}
+.texts {
+	font-size: 16px;
+	color: #662a48;
+}
+#discl {
+	text-align: right;
+	font-size: 12px;
+	color: #ff69b4;
+}
+#footer {
+	text-align: right;
+	font-size: 14px;
+}
+#footer a:hover {
+	color: white;
+}
+.texts a:hover {
+	color: red;
+}
