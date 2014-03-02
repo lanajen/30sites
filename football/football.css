@@ -1,0 +1,17 @@
+div.bound {
+	display: block; 
+	border-style: transparent;
+	width: 1100px;
+	height: 700px; 
+	background-image: url('ballfield.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+div.move { 
+	position: relative; 
+}
+.centered {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
