@@ -1,0 +1,35 @@
+body {
+	background-image: url('chemglass.jpeg');
+}
+#middle {
+	text-align: center;
+	margin: auto;
+	width: 500px;
+	height: 300px;
+	padding: 40px;
+	background-color: #d9d9d9;
+}
+#title {
+	font-size: 24;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+#subtitle {
+	font-size: 16;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.centered {
+	text-align: center;
+}
+#footer {
+	text-align: center;
+	background-color: yellow;
+	width: 80px;
+	position: absolute;
+	bottom: 5px;
+}
+.bold {
+	font-weight: bold;
+}
