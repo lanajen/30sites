@@ -1,0 +1,30 @@
+div {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #FF9C5B;
+    display: inline-block;
+}
+#name {
+	font-weight: bold;
+	color: #5b6cff;
+	display: block;
+	width: 300px;
+	background-color: #fff;
+	text-align: center;
+	margin: auto;
+}
+.red {
+    background-color: #E84A5F;
+}
+.pink {
+    background-color: #FF847C;
+}
+#footer {
+	padding-top: 30px;
+	width: 200px;
+	clear: both;
+}
+#footer a {
+	color: #5bffee;
+}
