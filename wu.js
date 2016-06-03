@@ -14,8 +14,9 @@ $(document).ready(function () {
 			var temp_f = parsed_json['current_observation']['feelslike_f'];
 			var look = parsed_json['current_observation']['weather'];
 			alert("Right now in " + location + ", it is "+look+" and feels like " + feelslike_f+" degrees F.");
-		}
+		
 	})
+)}
 )}
 
 // $(document).ready(function($) {
