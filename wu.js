@@ -4,7 +4,7 @@ $(document).ready(function () {
 	$('#clicking').on('click', function (e) {
 		city = prompt("What Californian city would you like to look up?");
 		city = city.replace(/ /g,"_");
-	}
+	)}
 
 	$.ajax({
 		url : "http://api.wunderground.com/api/0def10027afaebb7/conditions/q/CA/"+city+".json",
