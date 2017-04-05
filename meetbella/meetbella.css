@@ -3,9 +3,10 @@ html	{
 	max-width: 1300 px;
 }	
 body	{
-	background-color: #912470; 
+	/*background-color: #912470; */
+	background-color:#7facd9;
 	margin: 40px 50px;
-	font-family: Arial, sans-serif;	
+	font-family: Verdana, sans-serif;	
 }
 .centered	{
 	width: 1000px;
@@ -13,7 +14,8 @@ body	{
 	padding: 30px;
 	margin-top: 3px;
 	margin-bottom: 30px;
-	background-color: #e064bb;
+	/*background-color: #e064bb;*/
+	background-color: #7fd9d9;
 	margin: auto;
 	border-radius: 30px;
 }
@@ -31,7 +33,7 @@ img.intropic	{
 	text-align: center;
 	padding-top: 0px;
 	padding-bottom: 25px;
-	color: #7D0057;
+	color: #772877;
 	font-size: 42px;
 }
 .intro {
@@ -74,7 +76,7 @@ img.intropic	{
 	margin-right: 152px;
 }
 .picwords {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	text-align: center;
 }
 #video {
@@ -95,12 +97,17 @@ img.intropic	{
 	text-align: center;
 }
 .closer {
-	color: c10087;
-}		
+	color: black;
+}	
+
 #footer p 	{
 	position: relative;
 	padding-top: 15px;
 	text-align: right;
+	 
+}	
+.foot a {
+	color: #72c3c3;
 }	
 
 		
